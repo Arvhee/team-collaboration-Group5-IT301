@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Observer</title>
+    <meta name="description" content="Get in touch with The Observer for inquiries, story suggestions, and educational partnerships.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Ftheobserv9068back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.10"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.1"></script>
+  </head>
+<body class="bg-background font-source-sans">
+    <!-- Navigation Header -->
+    <header class="bg-primary shadow-lg sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-10 w-10 text-white" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="20" cy="20" r="8" fill="currentColor"/>
+                            <circle cx="20" cy="20" r="3" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <h1 class="text-white text-xl font-heading font-bold">The Observer</h1>
+                        <p class="text-primary-100 text-xs">Exposing Corruption</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="homepage.html" class="text-primary-100 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                        <a href="story_detail.html" class="text-primary-100 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Investigations</a>
+                        <a href="about_us.html" class="text-primary-100 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+                        <a href="contact_us.html" class="text-white hover:text-primary-100 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-white hover:text-primary-100 focus:outline-none focus:ring-2 focus:ring-white" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-primary-600">
+                    <a href="homepage.html" class="text-primary-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                    <a href="story_detail.html" class="text-primary-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Investigations</a>
+                    <a href="about_us.html" class="text-primary-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                    <a href="contact_us.html" class="text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary to-primary-700 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Contact Us</h1>
+            <p class="text-xl text-primary-100 max-w-3xl mx-auto leading-relaxed">
+                We'd love to hear from you! Whether you have a story suggestion, educational partnership inquiry, or general question, we're here to help.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Information & Form Section -->
+    <section class="py-16 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                
+                <!-- Contact Information -->
+                <div>
+                    <h2 class="text-3xl font-heading font-bold text-text-primary mb-8">Get In Touch</h2>
+                    
+                    <!-- Contact Cards -->
+                    <div class="space-y-6">
+                        <!-- Email Card -->
+                        <div class="bg-secondary rounded-lg p-6 shadow-card">
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-heading font-semibold text-text-primary mb-2">Email Address</h3>
+                                    <p class="text-text-secondary mb-1">For general inquiries and story suggestions</p>
+                                    <a href="mailto:Arvhee@gmail.com" class="text-primary font-medium hover:text-primary-600">Arvhee@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Phone Card -->
+                        <div class="bg-accent rounded-lg p-6 shadow-card">
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-accent-600" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zM6 4a1 1 0 011-1h6a1 1 0 011 1v12a1 1 0 01-1 1H7a1 1 0 01-1-1V4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-heading font-semibold text-white mb-2">Phone Number</h3>
+                                    <p class="text-white opacity-90 mb-1">For urgent inquiries and direct communication</p>
+                                    <a href="tel:0918*******" class="text-white font-medium hover:opacity-80">0918 *** ****</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Location Card -->
+                        <div class="bg-white border-2 border-primary rounded-lg p-6 shadow-card">
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-heading font-semibold text-text-primary mb-2">Our Location</h3>
+                                    <p class="text-text-secondary mb-1">Visit us for meetings and partnerships</p>
+                                    <p class="text-text-primary font-medium">Brgy Tagaytay, Silang, Cavite</p>
+                                    <p class="text-text-primary font-medium">Philippines</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Response Times -->
+                    <div class="mt-8 bg-surface rounded-lg p-6">
+                        <h3 class="text-lg font-heading font-semibold text-text-primary mb-4">Response Times</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between">
+                                <span class="text-text-secondary">General Inquiries:</span>
+                                <span class="text-text-primary font-medium">24-48 hours</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-text-secondary">Educational Partnerships:</span>
+                                <span class="text-text-primary font-medium">2-3 business days</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-text-secondary">Story Suggestions:</span>
+                                <span class="text-text-primary font-medium">1-2 weeks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <div class="bg-white rounded-lg p-8 shadow-card-hover">
+                        <h2 class="text-3xl font-heading font-bold text-text-primary mb-8">Send Us a Message</h2>
+                        
+                        <form class="space-y-6">
+                            <!-- Name Field -->
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-text-primary mb-2">Full Name *</label>
+                                <input type="text" 
+                                       id="name" 
+                                       name="name" 
+                                       required
+                                       class="input-field w-full" 
+                                       placeholder="Enter your full name">
+                            </div>
+
+                            <!-- Email Field -->
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-text-primary mb-2">Email Address *</label>
+                                <input type="email" 
+                                       id="email" 
+                                       name="email" 
+                                       required
+                                       class="input-field w-full" 
+                                       placeholder="Enter your email address">
+                            </div>
+
+                            <!-- Subject Field -->
+                            <div>
+                                <label for="subject" class="block text-sm font-medium text-text-primary mb-2">Subject *</label>
+                                <select id="subject" name="subject" required class="input-field w-full">
+                                    <option value="">Select inquiry type</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="story">Story Suggestion</option>
+                                    <option value="partnership">Educational Partnership</option>
+                                    <option value="collaboration">Media Collaboration</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <!-- Message Field -->
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-text-primary mb-2">Message *</label>
+                                <textarea id="message" 
+                                          name="message" 
+                                          rows="5" 
+                                          required
+                                          class="input-field w-full resize-none" 
+                                          placeholder="Please provide details about your inquiry..."></textarea>
+                            </div>
+
+                            <!-- Privacy Notice -->
+                            <div class="bg-primary-50 rounded-lg p-4">
+                                <p class="text-sm text-text-secondary">
+                                    <svg class="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    We respect your privacy. Your information will only be used to respond to your inquiry and will not be shared with third parties.
+                                </p>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn-primary w-full">
+                                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path>
+                                </svg>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-text-primary mb-4">Frequently Asked Questions</h2>
+                <p class="text-lg text-text-secondary">
+                    Quick answers to common questions about The Observer and our services.
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-lg p-6 shadow-card">
+                    <h3 class="text-lg font-heading font-semibold text-text-primary mb-3">How can I suggest a story for investigation?</h3>
+                    <p class="text-text-secondary">
+                        You can suggest stories by emailing us at Arvhee@gmail.com or using our contact form above. Please provide as much detail as possible, including any relevant documents or sources you may have.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-lg p-6 shadow-card">
+                    <h3 class="text-lg font-heading font-semibold text-text-primary mb-3">Do you offer educational partnerships?</h3>
+                    <p class="text-text-secondary">
+                        Yes! We actively collaborate with educational institutions, bootcamps, and training programs. Contact us to discuss how we can work together to bring investigative journalism to your students.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-lg p-6 shadow-card">
+                    <h3 class="text-lg font-heading font-semibold text-text-primary mb-3">How do you ensure the accuracy of your reports?</h3>
+                    <p class="text-text-secondary">
+                        All our investigations follow strict journalistic standards. We verify information through multiple sources, conduct thorough fact-checking, and maintain transparency in our reporting process.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-lg p-6 shadow-card">
+                    <h3 class="text-lg font-heading font-semibold text-text-primary mb-3">Can I use your content for educational purposes?</h3>
+                    <p class="text-text-secondary">
+                        Our content is designed to be educational and accessible. Please contact us for information about usage rights and how to properly cite our work in academic or training environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-error-600 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Brand -->
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <svg class="h-8 w-8 text-white mr-3" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="20" cy="20" r="8" fill="currentColor"/>
+                            <circle cx="20" cy="20" r="3" fill="white"/>
+                        </svg>
+                        <div>
+                            <h3 class="text-xl font-heading font-bold">The Observer</h3>
+                            <p class="text-error-100 text-sm">Exposing Corruption, Defending Democracy</p>
+                        </div>
+                    </div>
+                    <p class="text-error-100 mb-4 leading-relaxed">
+                        The Philippines' premier investigative news platform dedicated to exposing government corruption and holding public officials accountable through fearless, evidence-based journalism.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="homepage.html" class="text-error-100 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="story_detail.html" class="text-error-100 hover:text-white transition-colors">Investigations</a></li>
+                        <li><a href="about_us.html" class="text-error-100 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="contact_us.html" class="text-error-100 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-error-100">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                            Arvhee@gmail.com
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zM6 4a1 1 0 011-1h6a1 1 0 011 1v12a1 1 0 01-1 1H7a1 1 0 01-1-1V4z" clip-rule="evenodd"></path>
+                            </svg>
+                            0918 *** ****
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                            </svg>
+                            Brgy Tagaytay, Silang, Cavite
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-error-500 mt-8 pt-8 text-center">
+                <p class="text-error-100">
+                    © 2025 The Observer. All Rights Reserved. | 
+                    <a href="javascript:void(0)" class="hover:text-white transition-colors">Privacy Policy</a> | 
+                    <a href="javascript:void(0)" class="hover:text-white transition-colors">Editorial Standards</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Contact form handling
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            if (name && email && subject && message) {
+                alert('Thank you for your message! We will get back to you within 24-48 hours.');
+                this.reset();
+            } else {
+                alert('Please fill in all required fields.');
+            }
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
