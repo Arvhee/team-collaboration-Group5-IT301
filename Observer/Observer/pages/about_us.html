@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - The Observer</title>
+    <meta name="description" content="Learn about The Observer's mission to expose corruption in the Philippines through educational journalism and flash card presentation.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Ftheobserv9068back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.10"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.1"></script>
+  </head>
+<body class="bg-background font-source-sans">
+    <!-- Navigation Header -->
+    <header class="bg-primary shadow-lg sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-10 w-10 text-white" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="20" cy="20" r="8" fill="currentColor"/>
+                            <circle cx="20" cy="20" r="3" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <h1 class="text-white text-xl font-heading font-bold">The Observer</h1>
+                        <p class="text-primary-100 text-xs">Exposing Corruption</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="homepage.html" class="text-primary-100 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                        <a href="story_detail.html" class="text-primary-100 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Investigations</a>
+                        <a href="about_us.html" class="text-white hover:text-primary-100 px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+                        <a href="contact_us.html" class="text-primary-100 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-white hover:text-primary-100 focus:outline-none focus:ring-2 focus:ring-white" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-primary-600">
+                    <a href="homepage.html" class="text-primary-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                    <a href="story_detail.html" class="text-primary-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Investigations</a>
+                    <a href="about_us.html" class="text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                    <a href="contact_us.html" class="text-primary-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary to-primary-700 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">About The Observer</h1>
+            <p class="text-xl text-primary-100 max-w-3xl mx-auto leading-relaxed">
+                We are here to deliver the latest news or events that the Philippines have experienced through the use of flash cards.
+            </p>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-16 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="bg-secondary rounded-lg p-8 shadow-card">
+                        <h2 class="text-3xl font-heading font-bold text-text-primary mb-6">Our Mission</h2>
+                        <p class="text-lg text-text-secondary leading-relaxed mb-6">
+                            The Observer is committed to delivering timely Philippines news through innovative flash card presentation. We focus on exposing corruption and promoting transparency in government operations.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="w-2 h-2 bg-primary rounded-full mt-3 mr-3"></div>
+                                <p class="text-text-secondary">Educational approach to current events and corruption reporting</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-2 h-2 bg-primary rounded-full mt-3 mr-3"></div>
+                                <p class="text-text-secondary">Simplified news delivery for diverse learning environments</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-2 h-2 bg-primary rounded-full mt-3 mr-3"></div>
+                                <p class="text-text-secondary">Bootcamp-friendly approach to investigative journalism</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1719978184147-c5bf6b82c6e1" 
+                         alt="Team collaboration representing our educational journalism approach"
+                         class="rounded-lg shadow-card-hover w-full h-96 object-cover"
+                         onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-text-primary mb-4">Our Values</h2>
+                <p class="text-lg text-text-secondary max-w-2xl mx-auto">
+                    These core principles guide our work in delivering accessible and educational journalism.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Transparency -->
+                <div class="bg-white rounded-lg p-8 shadow-card text-center">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-text-primary mb-4">Transparency</h3>
+                    <p class="text-text-secondary">
+                        We believe in open, honest reporting that makes complex corruption cases accessible to everyone through clear, visual storytelling.
+                    </p>
+                </div>
+
+                <!-- Education -->
+                <div class="bg-white rounded-lg p-8 shadow-card text-center">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-secondary-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.75 2.524z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-text-primary mb-4">Education Focus</h3>
+                    <p class="text-text-secondary">
+                        Our educational approach helps students and the community understand important issues through engaging, easy-to-digest content.
+                    </p>
+                </div>
+
+                <!-- Innovation -->
+                <div class="bg-white rounded-lg p-8 shadow-card text-center">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-accent-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-text-primary mb-4">Innovation</h3>
+                    <p class="text-text-secondary">
+                        We use modern flash card techniques and visual design to make journalism more engaging and memorable for our audience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-text-primary mb-4">Our Team</h2>
+                <p class="text-lg text-text-secondary max-w-2xl mx-auto">
+                    Meet the dedicated individuals committed to bringing you accurate, accessible journalism.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="bg-white rounded-lg p-6 shadow-card text-center">
+                    <div class="w-24 h-24 bg-primary-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-text-primary mb-2">Maria Santos</h3>
+                    <p class="text-accent font-medium mb-3">Lead Investigative Journalist</p>
+                    <p class="text-sm text-text-secondary">
+                        Specializes in government transparency and corruption investigations with over 5 years of experience in educational journalism.
+                    </p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="bg-white rounded-lg p-6 shadow-card text-center">
+                    <div class="w-24 h-24 bg-secondary-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-secondary-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-text-primary mb-2">Juan dela Cruz</h3>
+                    <p class="text-accent font-medium mb-3">Content Designer</p>
+                    <p class="text-sm text-text-secondary">
+                        Creates engaging flash card presentations and visual content that makes complex stories easy to understand for students.
+                    </p>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="bg-white rounded-lg p-6 shadow-card text-center">
+                    <div class="w-24 h-24 bg-accent-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-accent-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-text-primary mb-2">Ana Rodriguez</h3>
+                    <p class="text-accent font-medium mb-3">Educational Coordinator</p>
+                    <p class="text-sm text-text-secondary">
+                        Ensures our content meets educational standards and is suitable for bootcamp and academic environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="bg-secondary py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-heading font-bold text-gray-800 mb-4">Our Impact</h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    Through our educational approach, we've made corruption reporting accessible to thousands of students and community members.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="text-gray-800">
+                    <div class="text-4xl font-heading font-bold mb-2">15+</div>
+                    <div class="text-sm font-medium">Educational Partnerships</div>
+                </div>
+                <div class="text-gray-800">
+                    <div class="text-4xl font-heading font-bold mb-2">1,200+</div>
+                    <div class="text-sm font-medium">Students Reached</div>
+                </div>
+                <div class="text-gray-800">
+                    <div class="text-4xl font-heading font-bold mb-2">50+</div>
+                    <div class="text-sm font-medium">Flash Card Stories</div>
+                </div>
+                <div class="text-gray-800">
+                    <div class="text-4xl font-heading font-bold mb-2">95%</div>
+                    <div class="text-sm font-medium">User Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-background">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="bg-primary rounded-lg p-8 text-white">
+                <h2 class="text-3xl font-heading font-bold mb-4">Join Our Educational Mission</h2>
+                <p class="text-xl text-primary-100 mb-8">
+                    Be part of the movement to make important news accessible and understandable for everyone.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="contact_us.html" class="btn-secondary">
+                        Get In Touch
+                    </a>
+                    <a href="homepage.html" class="btn-accent">
+                        View Our Work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-error-600 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Brand -->
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <svg class="h-8 w-8 text-white mr-3" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="20" cy="20" r="8" fill="currentColor"/>
+                            <circle cx="20" cy="20" r="3" fill="white"/>
+                        </svg>
+                        <div>
+                            <h3 class="text-xl font-heading font-bold">The Observer</h3>
+                            <p class="text-error-100 text-sm">Exposing Corruption, Defending Democracy</p>
+                        </div>
+                    </div>
+                    <p class="text-error-100 mb-4 leading-relaxed">
+                        The Philippines' premier investigative news platform dedicated to exposing government corruption and holding public officials accountable through fearless, evidence-based journalism.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="homepage.html" class="text-error-100 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="story_detail.html" class="text-error-100 hover:text-white transition-colors">Investigations</a></li>
+                        <li><a href="about_us.html" class="text-error-100 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="contact_us.html" class="text-error-100 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-error-100">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                            Arvhee@gmail.com
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zM6 4a1 1 0 011-1h6a1 1 0 011 1v12a1 1 0 01-1 1H7a1 1 0 01-1-1V4z" clip-rule="evenodd"></path>
+                            </svg>
+                            0918 *** ****
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                            </svg>
+                            Brgy Tagaytay, Silang, Cavite
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-error-500 mt-8 pt-8 text-center">
+                <p class="text-error-100">
+                    © 2025 The Observer. All Rights Reserved. | 
+                    <a href="javascript:void(0)" class="hover:text-white transition-colors">Privacy Policy</a> | 
+                    <a href="javascript:void(0)" class="hover:text-white transition-colors">Editorial Standards</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
